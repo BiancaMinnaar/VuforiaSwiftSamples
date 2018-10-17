@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		58D53CBF217713E700C7ED22 /* ImageTargetsEAGLView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 58D53CBB217713E700C7ED22 /* ImageTargetsEAGLView.mm */; };
+		58D53CC0217713E700C7ED22 /* ImageTargetsViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 58D53CBC217713E700C7ED22 /* ImageTargetsViewController.mm */; };
+		58D53CD4217715B500C7ED22 /* SampleAppRenderer.mm in Sources */ = {isa = PBXBuildFile; fileRef = 58D53CC8217715B500C7ED22 /* SampleAppRenderer.mm */; };
+		58D53CD5217715B500C7ED22 /* SampleApplicationShaderUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 58D53CC9217715B500C7ED22 /* SampleApplicationShaderUtils.m */; };
+		58D53CD6217715B500C7ED22 /* SampleApplicationUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 58D53CCA217715B500C7ED22 /* SampleApplicationUtils.cpp */; };
+		58D53CD7217715B500C7ED22 /* Texture.mm in Sources */ = {isa = PBXBuildFile; fileRef = 58D53CCB217715B500C7ED22 /* Texture.mm */; };
+		58D53CD8217715B500C7ED22 /* v3d in Resources */ = {isa = PBXBuildFile; fileRef = 58D53CCC217715B500C7ED22 /* v3d */; };
+		58D53CD9217715B500C7ED22 /* shaders in Resources */ = {isa = PBXBuildFile; fileRef = 58D53CCD217715B500C7ED22 /* shaders */; };
+		58D53CDA217715B500C7ED22 /* SampleApplication3DModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 58D53CD1217715B500C7ED22 /* SampleApplication3DModel.m */; };
+		58D53CDB217715B500C7ED22 /* SampleApplicationSession.mm in Sources */ = {isa = PBXBuildFile; fileRef = 58D53CD3217715B500C7ED22 /* SampleApplicationSession.mm */; };
+		58D53CDE217719ED00C7ED22 /* SwiftARManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D53CDD217719ED00C7ED22 /* SwiftARManager.swift */; };
 		9247FF1C2060FA7800F25884 /* license_3rdpartynotice.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9247FEBD2060FA7800F25884 /* license_3rdpartynotice.txt */; };
 		9247FF1F2060FA7800F25884 /* libVuforia.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9247FF1B2060FA7800F25884 /* libVuforia.a */; };
 		926096D41D4163B600510C24 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 926096D31D4163B600510C24 /* SpriteKit.framework */; };
@@ -48,6 +59,28 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		58D53CBB217713E700C7ED22 /* ImageTargetsEAGLView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ImageTargetsEAGLView.mm; sourceTree = "<group>"; };
+		58D53CBC217713E700C7ED22 /* ImageTargetsViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ImageTargetsViewController.mm; sourceTree = "<group>"; };
+		58D53CBD217713E700C7ED22 /* ImageTargetsEAGLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageTargetsEAGLView.h; sourceTree = "<group>"; };
+		58D53CBE217713E700C7ED22 /* ImageTargetsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageTargetsViewController.h; sourceTree = "<group>"; };
+		58D53CC3217715B400C7ED22 /* Texture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Texture.h; sourceTree = "<group>"; };
+		58D53CC4217715B400C7ED22 /* SampleApplicationShaderUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SampleApplicationShaderUtils.h; sourceTree = "<group>"; };
+		58D53CC5217715B400C7ED22 /* Quad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Quad.h; sourceTree = "<group>"; };
+		58D53CC6217715B400C7ED22 /* SampleApplicationUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SampleApplicationUtils.h; sourceTree = "<group>"; };
+		58D53CC7217715B500C7ED22 /* SampleApplication3DModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SampleApplication3DModel.h; sourceTree = "<group>"; };
+		58D53CC8217715B500C7ED22 /* SampleAppRenderer.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SampleAppRenderer.mm; sourceTree = "<group>"; };
+		58D53CC9217715B500C7ED22 /* SampleApplicationShaderUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SampleApplicationShaderUtils.m; sourceTree = "<group>"; };
+		58D53CCA217715B500C7ED22 /* SampleApplicationUtils.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SampleApplicationUtils.cpp; sourceTree = "<group>"; };
+		58D53CCB217715B500C7ED22 /* Texture.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Texture.mm; sourceTree = "<group>"; };
+		58D53CCC217715B500C7ED22 /* v3d */ = {isa = PBXFileReference; lastKnownFileType = folder; path = v3d; sourceTree = "<group>"; };
+		58D53CCD217715B500C7ED22 /* shaders */ = {isa = PBXFileReference; lastKnownFileType = folder; path = shaders; sourceTree = "<group>"; };
+		58D53CCE217715B500C7ED22 /* SampleApplicationSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SampleApplicationSession.h; sourceTree = "<group>"; };
+		58D53CCF217715B500C7ED22 /* SampleGLResourceHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SampleGLResourceHandler.h; sourceTree = "<group>"; };
+		58D53CD0217715B500C7ED22 /* SampleAppRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SampleAppRenderer.h; sourceTree = "<group>"; };
+		58D53CD1217715B500C7ED22 /* SampleApplication3DModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SampleApplication3DModel.m; sourceTree = "<group>"; };
+		58D53CD2217715B500C7ED22 /* Teapot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Teapot.h; sourceTree = "<group>"; };
+		58D53CD3217715B500C7ED22 /* SampleApplicationSession.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SampleApplicationSession.mm; sourceTree = "<group>"; };
+		58D53CDD217719ED00C7ED22 /* SwiftARManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftARManager.swift; sourceTree = "<group>"; };
 		9247FEBD2060FA7800F25884 /* license_3rdpartynotice.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = license_3rdpartynotice.txt; path = "VuforiaSampleSwift/vuforia-sdk-ios-7-0-50/licenses/license_3rdpartynotice.txt"; sourceTree = SOURCE_ROOT; };
 		9247FEC42060FA7800F25884 /* Type.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Type.h; sourceTree = "<group>"; };
 		9247FEC52060FA7800F25884 /* MetalRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MetalRenderer.h; sourceTree = "<group>"; };
@@ -197,6 +230,59 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		58D53CBA2177134D00C7ED22 /* VuforiaBonsai */ = {
+			isa = PBXGroup;
+			children = (
+				58D53CDC217719B600C7ED22 /* ObjC */,
+				58D53CCD217715B500C7ED22 /* shaders */,
+				58D53CD2217715B500C7ED22 /* Teapot.h */,
+				58D53CC3217715B400C7ED22 /* Texture.h */,
+				58D53CCB217715B500C7ED22 /* Texture.mm */,
+				58D53CCC217715B500C7ED22 /* v3d */,
+				58D53CC12177157000C7ED22 /* Targets */,
+				58D53CDD217719ED00C7ED22 /* SwiftARManager.swift */,
+			);
+			path = VuforiaBonsai;
+			sourceTree = "<group>";
+		};
+		58D53CC12177157000C7ED22 /* Targets */ = {
+			isa = PBXGroup;
+			children = (
+				58D53CC22177157D00C7ED22 /* ImageTargets */,
+			);
+			path = Targets;
+			sourceTree = "<group>";
+		};
+		58D53CC22177157D00C7ED22 /* ImageTargets */ = {
+			isa = PBXGroup;
+			children = (
+				58D53CBD217713E700C7ED22 /* ImageTargetsEAGLView.h */,
+				58D53CBB217713E700C7ED22 /* ImageTargetsEAGLView.mm */,
+				58D53CBE217713E700C7ED22 /* ImageTargetsViewController.h */,
+				58D53CBC217713E700C7ED22 /* ImageTargetsViewController.mm */,
+			);
+			path = ImageTargets;
+			sourceTree = "<group>";
+		};
+		58D53CDC217719B600C7ED22 /* ObjC */ = {
+			isa = PBXGroup;
+			children = (
+				58D53CC5217715B400C7ED22 /* Quad.h */,
+				58D53CC7217715B500C7ED22 /* SampleApplication3DModel.h */,
+				58D53CD1217715B500C7ED22 /* SampleApplication3DModel.m */,
+				58D53CCE217715B500C7ED22 /* SampleApplicationSession.h */,
+				58D53CD3217715B500C7ED22 /* SampleApplicationSession.mm */,
+				58D53CC4217715B400C7ED22 /* SampleApplicationShaderUtils.h */,
+				58D53CC9217715B500C7ED22 /* SampleApplicationShaderUtils.m */,
+				58D53CCA217715B500C7ED22 /* SampleApplicationUtils.cpp */,
+				58D53CC6217715B400C7ED22 /* SampleApplicationUtils.h */,
+				58D53CD0217715B500C7ED22 /* SampleAppRenderer.h */,
+				58D53CC8217715B500C7ED22 /* SampleAppRenderer.mm */,
+				58D53CCF217715B500C7ED22 /* SampleGLResourceHandler.h */,
+			);
+			path = ObjC;
+			sourceTree = "<group>";
+		};
 		9247FEBB2060FA7800F25884 /* vuforia-sdk-ios-7-0-50 */ = {
 			isa = PBXGroup;
 			children = (
@@ -433,6 +519,7 @@
 		92AA11071D27A5EB00E56CBE /* VuforiaSampleSwift */ = {
 			isa = PBXGroup;
 			children = (
+				58D53CBA2177134D00C7ED22 /* VuforiaBonsai */,
 				92AA11801D27A6CD00E56CBE /* VuforiaSampleSwift-Bridging-Header.h */,
 				927B76E31D27FF2300C4F5CC /* VuforiaManager */,
 				927B76ED1D28070D00C4F5CC /* VuforiaAssets */,
@@ -532,6 +619,7 @@
 				92AA11101D27A5EB00E56CBE /* Assets.xcassets in Resources */,
 				92DCE9BD1E37CEA400E0DE1C /* StonesAndChips.dat in Resources */,
 				92AA11851D27B96300E56CBE /* Localizable.strings in Resources */,
+				58D53CD9217715B500C7ED22 /* shaders in Resources */,
 				928C34331EAF69EB00BC07DE /* reticle@3x.png in Resources */,
 				928C34381EAF69EB00BC07DE /* vumark_texture.png in Resources */,
 				92DCE9C01E37CEA400E0DE1C /* Tarmac.xml in Resources */,
@@ -543,6 +631,7 @@
 				928C34311EAF69EB00BC07DE /* reticle.png in Resources */,
 				92AA110E1D27A5EB00E56CBE /* Main.storyboard in Resources */,
 				928C34341EAF69EB00BC07DE /* VM.png in Resources */,
+				58D53CD8217715B500C7ED22 /* v3d in Resources */,
 				92DCE9BC1E37CEA400E0DE1C /* IT_about.html in Resources */,
 				9247FF1C2060FA7800F25884 /* license_3rdpartynotice.txt in Resources */,
 			);
@@ -556,11 +645,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				927B76EA1D2806EF00C4F5CC /* VuforiaEAGLView.mm in Sources */,
+				58D53CC0217713E700C7ED22 /* ImageTargetsViewController.mm in Sources */,
+				58D53CDA217715B500C7ED22 /* SampleApplication3DModel.m in Sources */,
+				58D53CDE217719ED00C7ED22 /* SwiftARManager.swift in Sources */,
 				927B76FD1D2816DB00C4F5CC /* VuforiaShaderUtils.m in Sources */,
 				92AA110B1D27A5EB00E56CBE /* ViewController.swift in Sources */,
+				58D53CDB217715B500C7ED22 /* SampleApplicationSession.mm in Sources */,
+				58D53CD6217715B500C7ED22 /* SampleApplicationUtils.cpp in Sources */,
+				58D53CBF217713E700C7ED22 /* ImageTargetsEAGLView.mm in Sources */,
+				58D53CD4217715B500C7ED22 /* SampleAppRenderer.mm in Sources */,
 				92AA11091D27A5EB00E56CBE /* AppDelegate.swift in Sources */,
 				927B76EB1D2806EF00C4F5CC /* VuforiaManager.mm in Sources */,
 				927B76EC1D2806EF00C4F5CC /* VuforiaObjects.mm in Sources */,
+				58D53CD5217715B500C7ED22 /* SampleApplicationShaderUtils.m in Sources */,
+				58D53CD7217715B500C7ED22 /* Texture.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

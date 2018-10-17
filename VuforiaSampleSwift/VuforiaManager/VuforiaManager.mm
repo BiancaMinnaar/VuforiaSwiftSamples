@@ -454,9 +454,9 @@ namespace {
     }
     
     // we set the off target tracking mode to the current state
-    if (success) {
-        [self setExtendedTrackingForDataSet:_dataSet start:_extendedTrackingEnabled];
-    }
+//    if (success) {
+//        [self setExtendedTrackingForDataSet:_dataSet start:_extendedTrackingEnabled];
+//    }
     
     return success;
 }
